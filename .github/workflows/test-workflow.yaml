@@ -1,4 +1,4 @@
-name: Build simple flask app image
+name: Check simple file
 on: push
 
 jobs:
