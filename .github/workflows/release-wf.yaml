@@ -1,0 +1,16 @@
+name: check file on reales
+on:
+  release:
+    types: [published]
+
+jobs:
+  check-file:
+    name: Check file
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check file
+        run: cat test.txt
