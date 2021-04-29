@@ -2,8 +2,8 @@ name: Build simple flask app image
 on: push
 
 jobs:
-  lint-dockerfile:
-    name: Check dockerfile
+  check-file:
+    name: Check file
     runs-on: ubuntu-latest
 
     steps:
